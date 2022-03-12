@@ -1,0 +1,162 @@
+.map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav {
+  background: #000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first {
+  margin-right: 100px;
+  font-size: 1.4em;
+  margin-left: -20px;
+}
+
+.rides {
+  background: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.locator {
+  background: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.locator input {
+  background: #d3d3d3;
+  color: rgb(0, 0, 0);
+  outline: none;
+  margin: 5px;
+  height: 30px;
+  width: 520px;
+  padding: 2px;
+  padding-left: 15px;
+  font-size: 1em;
+}
+
+.locator input:hover {
+  border: 2px solid black;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  font-size: 1.2em;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  padding-top: 6px;
+}
+
+.cars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+  overflow: scroll;
+  width: 555px;
+}
+
+.car {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 510px;
+}
+
+.car img {
+  margin-right: 10px;
+  height: 100px;
+  width: 110px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+  width: 300px;
+}
+
+.car h3 {
+  margin-left: 50px;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.detail h2 {
+  margin-bottom: -15px;
+  font-size: 1.4em;
+}
+
+.detail h4 {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.car-first {
+  margin-top: 200px;
+}
+
+.car:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.car {
+  border-top: 1px solid black;
+}
+
+.car-first {
+  border-top: none;
+  border-bottom: 1px solid black;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  padding: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  height: 5px;
+  border-radius: 30px;
+}
